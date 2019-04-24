@@ -145,4 +145,4 @@ def NBS_single(sm_mat, regNet_glap, propNet=None, propNet_kernel=None,
         pass
     if verbose:
         print 'pyNBS iteration complete'
-    return H_df
+    return H_df, W, H
